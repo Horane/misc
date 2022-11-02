@@ -1,0 +1,43 @@
+/* ==UserStyle==
+@name           Eudic.net Dark Mode
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Use Eudic.net in dark mode
+@author         Mechanix
+==/UserStyle== */
+@-moz-document domain("eudic.net") {
+    /* Insert code here... */
+    #ads {
+        display: none !important;
+    }
+    .hot_search,
+    .hot_search_fr {
+        display: none !important;
+    }
+    body,
+    div,
+    .ui-tabs-nav {
+        background: #323232 !important;
+        color: #ffffff;
+    }
+    a:not(.voice-button) {
+        color: #CCCCCC !important;
+        background: #323232 !important;
+    }
+    span {
+        color: #CCCCCC !important;
+    }
+    input {
+        color: #CCCCCC;
+    }
+    .cur-search-type {
+        background: #323232 !important;
+    }
+    .dictimgtoword {
+        filter: invert(80%);
+    }
+    #globalVoice,
+    #stc-control {
+        filter: invert(80%);
+    }
+}
